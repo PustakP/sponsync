@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-900 text-white;
+}
+
+/* Custom scrollbar for dropdowns */
+.overflow-auto {
+  scrollbar-width: thin;
+  scrollbar-color: theme('colors.indigo.500') theme('colors.gray.700');
+}
+
+.overflow-auto::-webkit-scrollbar {
+  width: 8px;
+}
+
+.overflow-auto::-webkit-scrollbar-track {
+  background: theme('colors.gray.700');
+}
+
+.overflow-auto::-webkit-scrollbar-thumb {
+  background-color: theme('colors.indigo.500');
+  border-radius: 4px;
+}
