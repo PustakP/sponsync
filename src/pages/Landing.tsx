@@ -5,33 +5,33 @@ import { Zap, Mail, Phone, MapPin, Linkedin, Twitter, Instagram, Users, Target, 
 export default function Landing() {
   const teamMembers = [
     {
-      name: "Sarah Johnson",
+      name: "Amogh Sikka",
       role: "CEO & Founder",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&h=300",
+      image: "https://placehold.co/300x300",
       description: "Visionary leader with 10+ years in event management and sponsorship"
     },
     {
-      name: "Alex Chen",
+      name: "Anoushka Anoop",
       role: "Chief Technology Officer",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&h=300",
+      image: "https://placehold.co/300x300",
       description: "Tech innovator with expertise in platform development"
     },
     {
-      name: "Priya Patel",
+      name: "Aadi Verma",
       role: "Head of Partnerships",
-      image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=300&h=300",
+      image: "https://placehold.co/300x300",
       description: "Partnership strategist connecting brands with opportunities"
     },
     {
-      name: "Michael Ross",
+      name: "Virat Sachdeva",
       role: "Marketing Director",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&h=300",
+      image: "https://placehold.co/300x300",
       description: "Creative marketing expert driving brand growth"
     },
     {
-      name: "Emma Wilson",
+      name: "Krish Malhotra",
       role: "Customer Success Lead",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=300&h=300",
+      image: "https://placehold.co/300x300",
       description: "Dedicated to ensuring client satisfaction and success"
     }
   ];
@@ -87,7 +87,7 @@ export default function Landing() {
                 to="/login"
                 className="px-8 py-4 bg-transparent border-2 border-white text-white rounded-lg font-semibold hover:bg-white hover:text-purple-900 transition-colors text-lg"
               >
-                Learn More
+                Log back in
               </Link>
             </div>
           </div>
@@ -169,15 +169,19 @@ export default function Landing() {
               <h3 className="text-2xl font-semibold mb-6">Get in Touch</h3>
               <div className="flex items-center space-x-4">
                 <Mail className="w-6 h-6 text-purple-400" />
-                <span>contact@sponsync.com</span>
+                <span>contact@sponsync.in</span>
               </div>
               <div className="flex items-center space-x-4">
                 <Phone className="w-6 h-6 text-purple-400" />
-                <span>+91 (123) 456-7890</span>
+                <span>+91 8130277940</span>
+              </div>
+              <div className="flex items-center space-x-4">
+                <Phone className="w-6 h-6 text-purple-400" />
+                <span>+91 8978002012</span>
               </div>
               <div className="flex items-center space-x-4">
                 <MapPin className="w-6 h-6 text-purple-400" />
-                <span>123 Tech Park, Bangalore, India</span>
+                <span>Shiv Nadar Univuwursity</span>
               </div>
               <div className="flex space-x-6 pt-4">
                 <a href="#" className="text-purple-400 hover:text-purple-300 transition-colors">
@@ -186,7 +190,7 @@ export default function Landing() {
                 <a href="#" className="text-purple-400 hover:text-purple-300 transition-colors">
                   <Twitter className="w-6 h-6" />
                 </a>
-                <a href="#" className="text-purple-400 hover:text-purple-300 transition-colors">
+                <a href="https://instagram.com/spon_sync" className="text-purple-400 hover:text-purple-300 transition-colors">
                   <Instagram className="w-6 h-6" />
                 </a>
               </div>

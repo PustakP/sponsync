@@ -50,7 +50,7 @@ export default function SponsorsPage() {
                 </div>
                 <div className="ml-4">
                   <p className="text-sm font-medium text-gray-400">Total Sponsors</p>
-                  <p className="text-2xl font-semibold text-white">24</p>
+                  <p className="text-2xl font-semibold gray-900">24</p>
                 </div>
               </div>
             </div>
@@ -64,7 +64,7 @@ export default function SponsorsPage() {
                 </div>
                 <div className="ml-4">
                   <p className="text-sm font-medium text-gray-400">Active Partners</p>
-                  <p className="text-2xl font-semibold text-white">12</p>
+                  <p className="text-2xl font-semibold gray-900">12</p>
                 </div>
               </div>
             </div>
@@ -78,7 +78,7 @@ export default function SponsorsPage() {
                 </div>
                 <div className="ml-4">
                   <p className="text-sm font-medium text-gray-400">Total Funding</p>
-                  <p className="text-2xl font-semibold text-white">₹2.4M</p>
+                  <p className="text-2xl font-semibold gray-900">₹2.4M</p>
                 </div>
               </div>
             </div>
@@ -92,7 +92,7 @@ export default function SponsorsPage() {
                 </div>
                 <div className="ml-4">
                   <p className="text-sm font-medium text-gray-400">Success Rate</p>
-                  <p className="text-2xl font-semibold text-white">85%</p>
+                  <p className="text-2xl font-semibold gray-900">85%</p>
                 </div>
               </div>
             </div>
@@ -102,8 +102,8 @@ export default function SponsorsPage() {
         <Card className="bg-gray-800 border border-gray-700">
           <div className="p-6">
             <div className="flex items-center justify-between mb-6">
-              <h2 className="text-lg font-semibold text-white">Current Sponsors</h2>
-              <button className="px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-500 transition-colors">
+              <h2 className="text-lg font-semibold gray-900">Current Sponsors</h2>
+              <button className="px-4 py-2 bg-primary-600 gray-900 rounded-lg hover:bg-primary-500 transition-colors">
                 Add New Sponsor
               </button>
             </div>
@@ -129,7 +129,7 @@ export default function SponsorsPage() {
                             className="w-10 h-10 rounded-full"
                           />
                           <div className="ml-4">
-                            <p className="text-sm font-medium text-white">{sponsor.name}</p>
+                            <p className="text-sm font-medium gray-900">{sponsor.name}</p>
                           </div>
                         </div>
                       </td>
