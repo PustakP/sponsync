@@ -5,36 +5,37 @@ import { Zap, Mail, Phone, MapPin, Linkedin, Twitter, Instagram, Users, Target, 
 export default function Landing() {
   const teamMembers = [
     {
-      name: "Amogh Sikka",
-      role: "CEO & Founder",
-      image: "https://placehold.co/300x300",
-      description: "Visionary leader with 10+ years in event management and sponsorship"
+      name: "Anoushka Anoop",
+      role: "CEO",
+      image: "@/public/anoushka.jpg",
+      description: "A visionary leader ready to tackle challenges and drive impactful goals."
     },
     {
-      name: "Anoushka Anoop",
-      role: "Chief Technology Officer",
-      image: "https://placehold.co/300x300",
-      description: "Tech innovator with expertise in platform development"
+      name: "Amogh Sikka",
+      role: "COO",
+      image: "@/public/amogh.jpg",
+      description: "A strategist ensuring seamless operations and process efficiency."
     },
     {
       name: "Aadi Verma",
-      role: "Head of Partnerships",
-      image: "https://placehold.co/300x300",
-      description: "Partnership strategist connecting brands with opportunities"
+      role: "CTO",
+      image: "@/public/aadi.jpg",
+      description: "A tech innovator creating meaningful solutions."
     },
     {
       name: "Virat Sachdeva",
-      role: "Marketing Director",
-      image: "https://placehold.co/300x300",
-      description: "Creative marketing expert driving brand growth"
+      role: "CFO",
+      image: "@/public/virat.jpg",
+      description: "A resourceful financier maximizing value."
     },
     {
       name: "Krish Malhotra",
-      role: "Customer Success Lead",
-      image: "https://placehold.co/300x300",
-      description: "Dedicated to ensuring client satisfaction and success"
+      role: "CMO",
+      image: "@/public/krish.jpg",
+      description: "A storyteller building brand connections."
     }
   ];
+  
 
   const services = [
     {

@@ -213,7 +213,7 @@ export default function Register() {
                       onChange={(e) => setSearchQuery(e.target.value)}
                       placeholder="Search for your institution..."
                       className="w-full px-3 py-2 bg-gray-700 border border-gray-600 rounded-md text-gray-900 placeholder-gray-400 focus:ring-primary-500 focus:border-primary-500"
-                      required
+                      
                     />
                     <Search className="absolute right-3 top-2.5 h-5 w-5 text-gray-400" />
                   </div>
