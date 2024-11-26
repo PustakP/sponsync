@@ -7,31 +7,31 @@ export default function Landing() {
     {
       name: "Anoushka Anoop",
       role: "CEO",
-      image: "../../public/anoushka.jpg",
+      image: "../../anoushka.jpg",
       description: "A visionary leader ready to tackle challenges and drive impactful goals."
     },
     {
       name: "Amogh Sikka",
       role: "COO",
-      image: "../../public/amogh.jpg",
+      image: "../../amogh.jpg",
       description: "A strategist ensuring seamless operations and process efficiency."
     },
     {
       name: "Aadi Verma",
       role: "CTO",
-      image: "../../public/aadi.jpg",
+      image: "../../aadi.jpg",
       description: "A tech innovator creating meaningful solutions."
     },
     {
       name: "Virat Sachdeva",
       role: "CFO",
-      image: "../../public/virat.jpg",
+      image: "../../virat.jpg",
       description: "A resourceful financier maximizing value."
     },
     {
       name: "Krish Malhotra",
       role: "CMO",
-      image: "../../public/krish.jpg",
+      image: "../../krish.jpg",
       description: "A storyteller building brand connections."
     }
   ];
