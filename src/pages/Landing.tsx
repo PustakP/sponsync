@@ -182,7 +182,7 @@ export default function Landing() {
               </div>
               <div className="flex items-center space-x-4">
                 <MapPin className="w-6 h-6 text-purple-400" />
-                <span>Shiv Nadar Univuwursity</span>
+                <span>Shiv Nadar University</span>
               </div>
               <div className="flex space-x-6 pt-4">
                 <a href="#" className="text-purple-400 hover:text-purple-300 transition-colors">
